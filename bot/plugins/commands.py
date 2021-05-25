@@ -23,7 +23,14 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
+        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + """</code>\n<b>✪༺ ──•◈•─ •─  ─•◈•──༻✪
+Our channels    : @flmarc
+Movie Group     : @askyourmovies_101
+Anime group     : @anime_stann
+
+ Join share Support 😍
+
+❤️ Fɪʀꜱᴛ Oɴ Tᴇʟᴇɢʀᴀᴍ </b>""")
         
         if file_type == "document":
         
@@ -38,7 +45,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/anime_stann"
+                                    '💕SHARE THIS GROUP💕', url="http://t.me/share/url?url=%2A%2Ahey+bro..+%2A%2A%0D%0A__Join+this+amazing+movie+group+that+i+just+found__%0D%0A%2A%2AThey+uploads+requested+movies+with+in+seconds%2A%2A+%F0%9F%98%8D%0D%0A%2A%2AJOIN+NOW%2A%2A+%3A+%40askyourmovies_101+%F0%9F%94%A5%F0%9F%91%8C"
                                 )
                         ]
                     ]
@@ -57,7 +64,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/anime_stann"
+                                    '💕SHARE THIS GROUP💕', url="http://t.me/share/url?url=%2A%2Ahey+bro..+%2A%2A%0D%0A__Join+this+amazing+movie+group+that+i+just+found__%0D%0A%2A%2AThey+uploads+requested+movies+with+in+seconds%2A%2A+%F0%9F%98%8D%0D%0A%2A%2AJOIN+NOW%2A%2A+%3A+%40askyourmovies_101+%F0%9F%94%A5%F0%9F%91%8C"
                                 )
                         ]
                     ]
@@ -76,7 +83,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/anime_stann"
+                                    '💕SHARE THIS GROUP💕', url="http://t.me/share/url?url=%2A%2Ahey+bro..+%2A%2A%0D%0A__Join+this+amazing+movie+group+that+i+just+found__%0D%0A%2A%2AThey+uploads+requested+movies+with+in+seconds%2A%2A+%F0%9F%98%8D%0D%0A%2A%2AJOIN+NOW%2A%2A+%3A+%40askyourmovies_101+%F0%9F%94%A5%F0%9F%91%8C"
                                 )
                         ]
                     ]
