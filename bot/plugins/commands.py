@@ -23,7 +23,14 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption +"   @flmarc\n   @askyourmovies_101\n   @anime_stann" if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
+        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + """</code>\n<b>✪༺ ──•◈•─ •─  ─•◈•──༻✪
+Our channels    : @flmarc
+Movie Group     : @askyourmovies_101
+Anime group     : @anime_stann
+
+ Join share Support 😍
+
+❤️ Fɪʀꜱᴛ Oɴ Tᴇʟᴇɢʀᴀᴍ </b>""")
         
         if file_type == "document":
         
